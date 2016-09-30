@@ -1,0 +1,111 @@
+ /*
+BODY
+ */
+body{color:#333;float:left;width:100%;text-rendering: optimizeLegibility;font-family: 'Lato', sans-serif;}
+/* PAGES */
+.pages{float:left;width:100%;}
+/* HEADER */
+header{float:left;width:100%;position:absolute;top:0;left:0;z-index:9999;}
+.logo{float:left;margin-top:30px;}
+nav{background:transparent;height:100px;box-shadow:none;}
+nav ul a{font-size:23px;color:#fff;}
+nav ul a:hover{color:#009DE0;}
+nav ul a.active{color:#009DE0;}
+.nav-desktop{margin-top:20px;}
+.nav-desktop li{width:25%;}
+.redes-sociais{float:right;margin:35px 0 0 20px;}
+.redes-sociais li{float:left;display:inline;margin:0 10px;}
+.redes-sociais li a{float:right;width:34px;height:34px;padding:0!important;}
+#mobile-demo .redes-sociais{float:left;width:100%;margin:15px 0 0 0;}
+#mobile-demo .redes-sociais li{;width:25%;text-align:center;margin:0!important;}
+#mobile-demo .redes-sociais li a{background-position:0 -34px;float:none;display:inline-block;}
+/* HOME */
+.home{float:left;width:100%;min-height:800px;background-repeat:no-repeat ;background-size: cover;overflow:hidden;}
+.home-description h2{color: #fff;font-size: 38pt;line-height: 60px;margin-top:200px;}
+.home-description a{background: #009DE0;text-transform:initial;font-size: 20pt;height:auto;padding:13px 30px;}
+.home-description a:hover{background: #0086BF;}
+.home-description p{color: #fff;font-size: 16pt;}
+.home-description form input{color: #6f6d6d;font-size: 15pt;background: #009DE0;}
+.home-description form button{color: #fff;font-size: 15pt;background: #009DE0;padding: 4px 0;width:100%;height: auto;text-transform:initial;}
+.home-description form button:hover{background: #0086BF;}
+.home-description .msg-protegido{font-size:12pt;}
+.home-description .msg-protegido img{margin-right: 10px;}
+.home-imagem{margin-top:100px;}
+.disabled{display:none;}
+/* SOBRE */
+.about{float:left;width:100%;padding:60px 0;position:relative;transition: all 2s ease;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.about-description h2{color:#fff;font-size:32pt;}
+.about-description p{color:#fff;font-size:14pt;}
+.about-description a{background: #009DE0;text-transform:initial;font-size: 20pt;height:auto;padding:13px 30px;}
+.about-description a:hover{background: #0086BF;}
+ .about-frase{margin: 100px 0}
+.about-frase p{color:#fff;font-size:20pt; padding:0 50px;}
+.about-frase p:before{content: url('../img/icon_abre_aspas.png');
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0px;
+}
+.about-frase p:after{content: url('../img/icon_fecha_aspas.png');
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0px;
+}
+.mCustomScrollbar{float: left;width: 100%;margin-bottom: 50px;height: 400px}
+/* POSTS */
+.posts{float:left;width:100%;padding:50px 0;}
+.posts h2{color:#021838;font-size:32pt;}
+.posts-form-news p{color: #001136;font-size: 16pt;}
+.posts-form-news form input{color: #666666;font-size: 15pt;border:1px solid #021838;height:auto;padding: 17px 3%;}
+.posts-form-news form button{color: #fff;font-size: 15pt;background: #009DE0;padding: 11px 0;width:100%;height: auto;text-transform:initial;}
+.posts-form-news form button:hover{background: #0086BF;}
+.posts-form-news .msg-protegido{font-size:12pt;width:100%;float:left;}
+.posts-form-news .msg-protegido img{margin-right: 10px;}
+.posts .card-title{width:100%;background:rgba(0,0,0,0.4);font-size:13pt;color:#fff;display:none;}
+.posts-collection li{margin-bottom:50px;}
+.posts .paginacao a{color:#021838;}
+.posts .paginacao a:hover{color:#0086BF;}
+/* POST */
+.post{float: left;width: 100%;padding: 50px 0}
+.post h2{color:#000;font-weight:700}
+.post h3{color:#000;font-size: 25px}
+.post .posts-form-news{float: left;width: 100%;margin-top:50px}
+.post .card .card-content p{color:#000}
+.post .posts-collection li a:hover p{text-decoration: underline}
+.post .conteudo-post{font-size: 17px}
+.post .creditos{width: 100%}
+.post .legenda{width: 100%}
+.post .post-img{width: 100%;float:left}
+.post .post-img img{width: 100%}
+.post .card{box-shadow:none}
+.post .card .card-image img{width: 100%}
+/* CONTATO */
+.contact{float:left;width:100%;padding:50px 0;background:#021838;}
+.contact h2{color:#fff;font-size:32pt;}
+.contact h3{color:#fff;font-size:20pt;line-height:35px;}
+.contact .input-field{margin-bottom:15px;height:65px;}
+.contact input{border-radius:3px;color:#666666;font-size:15pt;padding:6px 4%;width:92%;margin:0;}
+.contact textarea{margin-top: 1rem;margin-bottom:15px;border-radius:3px;color:#666666;font-size:15pt;padding:15px 3%;resize:none;overflow:hidden;height:200px;width:100%;}
+.contact button{background: #009DE0;text-transform:initial;font-size: 15pt;height:auto;padding:10px 40px;}
+.contact button:hover{background: #0086BF;}
+.at-error, .at-warning{color:#fff;margin:0;padding: 0;}
+/* FOOTER */
+footer{float:left;width:100%;background:#03122A;position:relative;}
+footer .footer-copyright{color:#fff;font-size:15pt;}
+.goTop{width:79px;height:42px;background:url('../img/botao_topo.png') no-repeat;position:absolute;right:20px;top:20px;}
+.goTop:hover{background-position:0 -42px;}
+.pagination li.active{background:#009DE0;color:#fff;}
+/* media 980px */
+@media only screen and (max-width: 980px) {
+    .home-description,.home-imagem{text-align:center;}
+    .home-description h2{text-align:center;}
+    .home-description .msg-protegido{text-align:left;}
+    footer{height:150px;}
+    .goTop{right:20px;top:80px;}
+}
+/* media 600px */
+@media only screen and (max-width: 600px) {
+}
